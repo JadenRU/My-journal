@@ -1,110 +1,194 @@
 body {
-  padding: 0 30px;
-  font-size: 14px;
-  line-height: 22px;
-  font-family: "Georgia", serif;
+  margin: 0;
+  min-width: 960px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
   color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
-h1 {
+.container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  margin: 0 0 160px;
+  padding: 32px 0 32px;
+}
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+
+.page-header a {
+  margin-left: 56px;
+  color: #288be6;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.header-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-header.svg");
+}
+
+.header-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header.svg");
+}
+
+.hero-image {
+  margin-bottom: 620px;
+}
+
+.hero-image .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+.heading {
+  margin: 0 0 16px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 88px;
+  line-height: 96px;
+  font-weight: 400;
+}
+
+.hero-image p {
+  margin: 0;
   font-size: 32px;
-  line-height: normal;
+  line-height: 48px;
 }
 
-h2 {
-  font-size: 20px;
-  line-height: normal;
+.intro {
+  margin: 0 0 120px;
 }
 
-nav {
-  color: #888888;
+.subheading {
+  margin: 0 0 56px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
 }
 
-aside {
-  margin: 20px 0;
-  color: #c4c4c4;
+.user-image {
+  margin: 0 0 32px;
+  text-align: center;
 }
 
-pre,
-code {
-  font-family: "Courier New", "Courier", monospace;
-  color: #6a2cce;
+.intro h3,
+.portfolio h3 {
+  margin: 0 0 12px;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
 }
 
-pre {
-  line-height: normal;
+.intro p {
+  margin: 0 0 32px;
 }
 
-blockquote {
-  padding-left: 14px;
-  border-left: 2px solid #6a2cce;
-
-  color: #6a2cce;
+.skills-list {
+  margin: 0;
+  padding: 0;
 }
 
-cite {
-  color: #222222;
+.skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
-time {
-  color: #6a2cce;
+.skill-html {
+  background-image: url("img/icon-html.svg");
 }
 
-a[href] {
-  color: #0099ef;
-  text-decoration-line: underline;
+.skill-css {
+  background-image: url("img/icon-css.svg");
 }
 
-.days {
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #288be6;
+  border-radius: 6px;
+}
+
+.portfolio {
+  margin: 0 0 120px;
+}
+
+.projects {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  padding-left: 0;
 }
 
-figure {
-  margin-left: 0;
-  margin-right: 0;
+.projects li {
+  margin: 0 0 80px;
 }
 
-figure img {
-  vertical-align: middle;
-  border: 8px solid rgb(202, 224, 248);
-}
-
-figcaption {
-  width: 502px;
-  padding-bottom: 8px;
-  font-size: 12px;
-  letter-spacing: 0.02em;
-  font-style: italic;
+.project-image {
+  margin: 0 0 24px;
   text-align: center;
-  background-color: rgb(202, 224, 248);
 }
 
-.pagination a {
+.projects p {
+  margin: 0 0 24px;
+}
+
+.button {
+  padding: 6px 20px;
   display: inline-block;
-  margin-right: 30px;
-  margin-bottom: 15px;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #288be6;
+  color: #ffffff;
 }
 
-.pagination {
-  text-align: center;
-  color: #888888;
+.page-footer {
+  padding: 40px 0;
+  background-color: #00417d;
+  color: #ffffff;
 }
 
-.danger-text {
-  color: #ff4400;
+.page-footer a {
+  margin-left: 56px;
+  color: inherit;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
-.danger-block {
-  padding: 5px 10px;
-  background-color: #ffd0bf;
+.footer-email {
+  padding-left: 30px;
+  background-image: url("img/icon-email-footer.svg");
 }
 
-.no-danger-block {
-  padding: 5px 10px;
-  background-color: #c6f5f0;
-}
-
-footer {
-  margin-top: 30px;
+.footer-phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-footer.svg");
 }
