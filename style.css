@@ -104,7 +104,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .hero-image::before {
   position: absolute;
   content: "";
@@ -128,7 +127,6 @@ body {
   background-repeat: no-repeat;
   border-top: 2px solid #5053a8;
 }
-
 .heading {
   z-index: 1;
   order: 2;
